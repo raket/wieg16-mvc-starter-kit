@@ -1,0 +1,15 @@
+{
+  "name": "ditt-namn/projektets-namn",
+  "authors": [
+	{
+	  "name": "Ditt namn",
+	  "email": "din@mailadress.se"
+	}
+  ],
+  "require": {},
+  "autoload": {
+	"psr-4": {
+	  "App\\": "app"
+	}
+  }
+}
