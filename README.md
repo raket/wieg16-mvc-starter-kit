@@ -1,8 +1,8 @@
 
 # MVC projekt Maria Cetinic
 
-a. Utbildning och klass: Webbutveckling e-handel, Medieinstutet, wieg16
-b. Uppgiften: Projektet handlar om att visa upp olika maträtter och efterrätter. Du som användare ska kunna se alla samt lägga till recept. 
+1. Utbildning och klass: Webbutveckling e-handel, Medieinstutet, wieg16
+2. Uppgiften: Projektet handlar om att visa upp olika maträtter och efterrätter. Du som användare ska kunna se alla samt lägga till recept. 
 
 
 
