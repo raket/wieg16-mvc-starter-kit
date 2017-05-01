@@ -61,7 +61,7 @@ class Database {
 	 * Du kan binda parametrar precis som i create
 	 * Klura ut hur du skall sätt ihop rätt textsträng för x=y...
 	 * Implode kommer inte ta dig hela vägen den här gången
-	 * Kanske array_map?
+	 * Kanske array_map eller foreach?
 	 */
 	public function update($table, $id, $data) {
 		$columns = array_keys($data);
