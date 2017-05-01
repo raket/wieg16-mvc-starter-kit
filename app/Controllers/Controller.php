@@ -29,4 +29,8 @@ class Controller {
 	public function setBaseDir($baseDir) {
 		$this->baseDir = $baseDir;
 	}
+
+	public function createRecipe($recipeModel, $data) {
+		return $recipeModel->create($data);
+	}
 }
