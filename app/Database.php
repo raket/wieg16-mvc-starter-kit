@@ -53,7 +53,27 @@ class Database {
 		return ($status) ? $this->pdo->lastInsertId() : false;
 	}
 
-	public function update() {
+	/**
+	 * ÖVERKURS
+	 *
+	 * Skriv den här själv!
+	 * Titta på create för strukturidéer
+	 * Du kan binda parametrar precis som i create
+	 * Klura ut hur du skall sätt ihop rätt textsträng för x=y...
+	 * Implode kommer inte ta dig hela vägen den här gången
+	 * Kanske array_map?
+	 */
+	public function update($table, $id, $data) {
+		$columns = array_keys($data);
+
+		$sql = "UPDATE $table SET (x=y...) WHERE id = :id";
+	}
+
+	/**
+	 * Skriv den här själv!
+	 * Titta på getById för struktur
+	 */
+	public function delete($table, $id) {
 
 	}
 }
